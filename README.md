@@ -2,13 +2,11 @@
 ## Для развертки и запуска следует выполнить следующие действия:
 ```shell script
 # Загрузка файлов
-sudo git clone https://github.com/corvinus-cron/factorial.git
-
-cd factorial
-
+sudo git clone https://github.com/corvinus-cron/Factorial.git
+# Вход в папку
+cd Factorial
 # Сборка
 docker build .
-
 # Запуск
 python3 server.py
 ```
